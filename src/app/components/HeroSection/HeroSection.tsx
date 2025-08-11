@@ -1,10 +1,10 @@
 "use client";
 
-import { Form } from "../HeroSection/Form";
+import { Form } from "./components/Form";
 
 export function HeroSection() {
   return (
-    <div id="form" className="bg-main py-10">
+    <div id="form" className="bg-[#F5F5F5] py-10">
       <section
         className="relative z-1 w-4/5 max-w-300 mx-auto flex flex-col md:flex-row justify-between gap-5"
       >

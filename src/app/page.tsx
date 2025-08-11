@@ -1,5 +1,6 @@
 import { HeaderSection } from "./components/HeaderSection";
 import { HeroSection } from "./components/HeroSection/HeroSection";
+import { ReasonSection } from "./components/ReasonsSection/ReasonsSection";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <HeaderSection />
       <main>
         <HeroSection />
+        <ReasonSection />
       </main>
     </>
   );

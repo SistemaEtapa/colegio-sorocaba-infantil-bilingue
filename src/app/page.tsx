@@ -1,3 +1,4 @@
+import { DifferentialsSection } from "./components/DifferentialsSection";
 import { EtapaIdiomasSection } from "./components/EtapaIdiomasSection";
 import { HeaderSection } from "./components/HeaderSection";
 import { HeroSection } from "./components/HeroSection/HeroSection";
@@ -11,6 +12,7 @@ export default function Home() {
         <HeroSection />
         <ReasonSection />
         <EtapaIdiomasSection />
+        <DifferentialsSection />
       </main>
     </>
   );

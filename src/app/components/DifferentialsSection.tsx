@@ -24,7 +24,7 @@ export function DifferentialsSection() {
   ]
 
   return (
-    <section className="max-w-300 w-4/5 mx-auto flex flex-col items-center gap-8 pb-12 relative">
+    <section id="diferenciais" className="max-w-300 w-4/5 mx-auto flex flex-col items-center gap-8 pb-12 relative">
       <h2 className="text-[#008F5B] text-center text-4xl font-bold w-3/5 leading-12">
         Diferenciais da Educação Infantil Bilíngue
         do Colégio Sorocaba

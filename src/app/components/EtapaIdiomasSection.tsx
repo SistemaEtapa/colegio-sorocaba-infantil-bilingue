@@ -3,7 +3,7 @@ import ImageEtapaIdiomas from '../../../public/etapa-idiomas.png'
 
 export function EtapaIdiomasSection() {
   return (
-    <div className="max-w-300 w-4/5 mx-auto pb-12">
+    <div id='etapa-idiomas' className="max-w-300 w-4/5 mx-auto pb-12">
       <section className="grid grid-cols-2">
         <div className="p-15 text-white rounded-l-3xl rounded-bl-3xl bg-[#005596] space-y-8">
           <h2 className='font-bold text-4xl leading-12'>Etapa Idiomas: educação bilíngue em uma jornada prazerosa</h2>

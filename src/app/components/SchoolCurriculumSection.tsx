@@ -62,7 +62,7 @@ export function SchoolCurriculumSection() {
 
 
   return (
-    <section className="w-4/5 max-w-300 mx-auto bg-[#008F5B] p-12 rounded-2xl">
+    <section id="grade-curricular" className="w-4/5 max-w-300 mx-auto bg-[#008F5B] p-12 rounded-2xl">
       <div className="flex flex-col gap-15 justify-center">
         <h2 className="text-center font-bold text-4xl text-white">Conheça a grade curricular para a Educação Infantil</h2>
 

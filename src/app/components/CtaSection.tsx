@@ -23,9 +23,9 @@ export function CtaSection() {
 
               Preencha o formulário e agende uma visita. Será um prazer receber sua família e mostrar de perto como construímos uma base forte para a vida escolar!
             </p>
-            <Button className="cursor-pointer bg-[#FCAF17] text-[#00650E] font-semibold text-lg">
+            <a href="#form" className="rounded-2xl py-2 px-4 bg-[#FCAF17] text-[#00650E] font-semibold text-lg">
               Quero conhecer
-            </Button>
+            </a>
           </div>
         </CardContent>
       </Card>

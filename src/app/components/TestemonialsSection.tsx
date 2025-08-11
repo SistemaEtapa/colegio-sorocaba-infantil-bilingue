@@ -4,7 +4,7 @@ import Logo from '../../../public/logo-sorocaba-branco.png'
 
 export function TestemonialsSection() {
   return (
-    <section className="relative max-w-300 w-4/5 mx-auto flex flex-col gap-10 py-12 items-center">
+    <section id="depoimentos" className="relative max-w-300 w-4/5 mx-auto flex flex-col gap-10 py-12 items-center">
       <h2 className="font-bold text-4xl text-[#008f5b]">O que dizem sobre o Colégio Sorocaba</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

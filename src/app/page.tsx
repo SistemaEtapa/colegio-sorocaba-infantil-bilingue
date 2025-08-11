@@ -1,5 +1,13 @@
+import { HeaderSection } from "./components/HeaderSection";
+import { HeroSection } from "./components/HeroSection/HeroSection";
+
 export default function Home() {
   return (
-    <h1>Hello world</h1>
+    <>
+      <HeaderSection />
+      <main>
+        <HeroSection />
+      </main>
+    </>
   );
 }

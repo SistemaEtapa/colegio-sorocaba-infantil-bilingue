@@ -9,7 +9,7 @@ export function HeroSection() {
         className="relative z-1 w-4/5 max-w-300 mx-auto flex flex-col md:flex-row justify-between gap-5"
       >
         <div className="w-full flex flex-col gap-5 text-center md:pl-10 md:w-3/5 md:text-start">
-          <h1 className="mt-5 text-3xl md:text-5xl font-bold leading-15 text-[#008F5B]">
+          <h1 className="mt-5 text-3xl md:text-5xl font-bold md:leading-15 text-[#008F5B]">
             Colégio Sorocaba: <br />
             <span className="text-[#005596]">
               Educação Infantil <br /> bilíngue

@@ -62,7 +62,7 @@ export function SchoolCurriculumSection() {
 
 
   return (
-    <section id="grade-curricular" className="w-4/5 max-w-300 mx-auto bg-[#008F5B] p-12 rounded-2xl">
+    <section id="grade-curricular" className="w-4/5 max-w-300 mx-auto bg-[#008F5B] p-7 md:p-12 rounded-2xl">
       <div className="flex flex-col gap-15 justify-center">
         <h2 className="text-center font-bold text-4xl text-white">Conheça a grade curricular para a Educação Infantil</h2>
 
@@ -73,7 +73,7 @@ export function SchoolCurriculumSection() {
           autoplay={{ delay: 2500, disableOnInteraction: true }}
           loop={true}
           pagination={{ clickable: true }}
-          className="w-full h-full md:!pb-15"
+          className="w-full h-full !pb-5 md:!pb-15"
           breakpoints={{
             320: { slidesPerView: 1, spaceBetween: 10 },
             768: { slidesPerView: 2, spaceBetween: 20 },

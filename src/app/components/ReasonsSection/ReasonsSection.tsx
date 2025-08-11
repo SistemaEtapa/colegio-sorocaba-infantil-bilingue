@@ -5,12 +5,12 @@ import Logo from '../../../../public/logo-sorocaba-branco.png'
 export function ReasonSection() {
 
   return (
-    <div id="ensino-bilingue" className="max-w-300 w-4/5 mx-auto py-12 grid grid-cols-2 relative z-10">
+    <div id="ensino-bilingue" className="max-w-300 w-4/5 mx-auto py-12 grid grid-cols-1 gap-5 relative z-10 text-center md:grid-cols-2">
       <section className="px-5">
         <SwiperCarousel />
       </section>
 
-      <section className="w-4/5 space-y-8">
+      <section className="md:w-4/5 space-y-8">
         <h2 className="text-4xl text-[#008F5B] font-bold leading-12">
           Por que aprender inglês durante a Educação Infantil?
         </h2>

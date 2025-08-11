@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Fachada from '../../../public/fachada-sorocaba.png'
@@ -7,7 +6,7 @@ export function CtaSection() {
   return (
     <section className="max-w-300 w-4/5 mx-auto">
       <Card className="bg-[#0083CB]">
-        <CardContent className="grid grid-cols-2 gap-12">
+        <CardContent className="grid md:grid-cols-2 gap-5 md:gap-12">
           <Image
             src={Fachada}
             alt=""

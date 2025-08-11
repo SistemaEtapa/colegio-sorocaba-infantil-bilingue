@@ -1,3 +1,4 @@
+import { CtaSection } from "./components/CtaSection";
 import { DifferentialsSection } from "./components/DifferentialsSection";
 import { EtapaIdiomasSection } from "./components/EtapaIdiomasSection";
 import { HeaderSection } from "./components/HeaderSection";
@@ -17,6 +18,7 @@ export default function Home() {
         <DifferentialsSection />
         <SchoolCurriculumSection />
         <TestemonialsSection />
+        <CtaSection />
       </main>
     </>
   );

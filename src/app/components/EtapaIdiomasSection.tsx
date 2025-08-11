@@ -21,7 +21,7 @@ export function EtapaIdiomasSection() {
         <Image
           src={ImageEtapaIdiomas}
           alt="Ilustração colorida com rostos de crianças e animais desenhados em estilo cartoon, acompanhada da frase ‘Somos cidadãos do mundo, somos bilíngues! Uma nova forma de aprender.’ em destaque no centro."
-          className='rounded-b-4xl'
+          className='rounded-b-4xl md:rounded-bl-none'
         />
       </section>
     </div>

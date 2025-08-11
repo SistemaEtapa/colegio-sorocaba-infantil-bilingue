@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Educação Infantil Bilíngue | Colégio Sorocaba",
   description: "Colégio Sorocaba: Educação Infantil bilíngue com acolhimento e ensino de inglês desde cedo, utilizando o programa Etapa Idiomas para formar cidadãos do mundo preparados para o futuro.",
+  icons: 'logo-sorocaba-branco.png'
 };
 
 export default function RootLayout({

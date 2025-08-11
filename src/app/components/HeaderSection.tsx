@@ -15,8 +15,8 @@ export function HeaderSection() {
   return (
     <header className="max-w-300 w-4/5 mx-auto flex items-center justify-between py-5">
 
-      <a href="https://www.colegiofantastico.com/" target="_blank">
-        <Image src={Logo} alt="Logo do Colégo Fantástico" />
+      <a href="https://www.colegiosorocaba.com.br" target="_blank">
+        <Image src={Logo} alt="Colégo Sorocaba" />
       </a>
 
       <div className="md:hidden">

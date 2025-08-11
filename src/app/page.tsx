@@ -1,6 +1,7 @@
 import { CtaSection } from "./components/CtaSection";
 import { DifferentialsSection } from "./components/DifferentialsSection";
 import { EtapaIdiomasSection } from "./components/EtapaIdiomasSection";
+import { FooterSection } from "./components/FooterSection";
 import { HeaderSection } from "./components/HeaderSection";
 import { HeroSection } from "./components/HeroSection/HeroSection";
 import { ReasonSection } from "./components/ReasonsSection/ReasonsSection";
@@ -20,6 +21,7 @@ export default function Home() {
         <TestemonialsSection />
         <CtaSection />
       </main>
+      <FooterSection />
     </>
   );
 }

@@ -3,6 +3,7 @@ import { EtapaIdiomasSection } from "./components/EtapaIdiomasSection";
 import { HeaderSection } from "./components/HeaderSection";
 import { HeroSection } from "./components/HeroSection/HeroSection";
 import { ReasonSection } from "./components/ReasonsSection/ReasonsSection";
+import { SchoolCurriculumSection } from "./components/SchoolCurriculumSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <ReasonSection />
         <EtapaIdiomasSection />
         <DifferentialsSection />
+        <SchoolCurriculumSection />
       </main>
     </>
   );

@@ -1,7 +1,6 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  images: {
+    domains: ['image.conteudo.sistemaetapa.com.br'],
+  },
 };
-
-export default nextConfig;
+module.exports = nextConfig;

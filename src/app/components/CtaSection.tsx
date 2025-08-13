@@ -13,7 +13,7 @@ export function CtaSection() {
             className="rounded-2xl"
           />
 
-          <div className="text-white space-y-15 py-5">
+          <div className="text-white space-y-8 py-5">
             <h2 className="text-4xl font-bold">
               Agende sua visita e conheça a Educação Infantil do Colégio Sorocaba
             </h2>
@@ -22,7 +22,7 @@ export function CtaSection() {
 
               Preencha o formulário e agende uma visita. Será um prazer receber sua família e mostrar de perto como construímos uma base forte para a vida escolar!
             </p>
-            <a href="#form" className="rounded-2xl py-2 px-4 bg-[#FCAF17] text-[#00650E] font-semibold text-lg">
+            <a href="#form" className="rounded-lg py-2 px-4 bg-[#FCAF17] text-[#00650E] font-semibold text-lg">
               Quero conhecer
             </a>
           </div>

@@ -30,7 +30,7 @@ export function SwiperCarousel() {
     >
       {images.map((image) => (
         <SwiperSlide className="h-full" key={image.src}>
-          <img src={image.src} alt="" className="h-full object-cover" />
+          <img src={image.src} alt="" className="h-full object-cover rounded-lg" />
         </SwiperSlide>
       ))}
     </Swiper>

@@ -102,42 +102,6 @@ export function Form() {
                 Educação Infantil III
               </option>
               <option value="Educação Infantil IV">Educação Infantil IV</option>
-              <option value="1º ano - Fundamental Anos Iniciais">
-                1º ano - Fundamental Anos Iniciais
-              </option>
-              <option value="2º ano - Fundamental Anos Iniciais">
-                2º ano - Fundamental Anos Iniciais
-              </option>
-              <option value="3º ano - Fundamental Anos Iniciais">
-                3º ano - Fundamental Anos Iniciais
-              </option>
-              <option value="4º ano - Fundamental Anos Iniciais">
-                4º ano - Fundamental Anos Iniciais
-              </option>
-              <option value="5º ano - Fundamental Anos Iniciais">
-                5º ano - Fundamental Anos Iniciais
-              </option>
-              <option value="6º ano - Fundamental Anos Finais">
-                6º ano - Fundamental Anos Finais
-              </option>
-              <option value="7º ano - Fundamental Anos Finais">
-                7º ano - Fundamental Anos Finais
-              </option>
-              <option value="8º ano - Fundamental Anos Finais">
-                8º ano - Fundamental Anos Finais
-              </option>
-              <option value="9º ano - Fundamental Anos Finais">
-                9º ano - Fundamental Anos Finais
-              </option>
-              <option value="1ª Série - Ensino Médio">
-                1ª Série - Ensino Médio
-              </option>
-              <option value="2ª Série - Ensino Médio">
-                2ª Série - Ensino Médio
-              </option>
-              <option value="3ª Série - Ensino Médio">
-                3ª Série - Ensino Médio
-              </option>
             </select>
           </div>
         </div>

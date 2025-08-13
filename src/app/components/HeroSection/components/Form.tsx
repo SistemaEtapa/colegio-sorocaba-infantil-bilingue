@@ -93,9 +93,6 @@ export function Form() {
               required
             >
               <option value="">-- Nenhum --</option>
-              <option value="Educação Infantil Bebês">
-                Educação Infantil Bebês
-              </option>
               <option value="Educação Infantil I">Educação Infantil I</option>
               <option value="Educação Infantil II">Educação Infantil II</option>
               <option value="Educação Infantil III">

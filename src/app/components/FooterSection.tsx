@@ -18,7 +18,7 @@ export function FooterSection() {
 
         <div className="flex flex-col w-2/5 gap-2 text-[#3B3B3B] md:w-1/5 md:gap-5 ">
           <address className="">
-            R. Atanázio Soares, 3700 - Jardim Maria Eugênia, Sorocaba - SP, 18074-3
+            R. Atanázio Soares, 3700 - Jardim Maria Eugênia, Sorocaba - SP, 18074-385
           </address>
           <p><strong>Telefone</strong> (15) 3226-3025</p>
         </div>

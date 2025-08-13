@@ -85,7 +85,7 @@ export function SchoolCurriculumSection() {
               <Card className="py-10">
                 <CardContent className="flex flex-col gap-5 justify-center items-center text-[#005596]">
                   {card.icon}
-                  <span className="text-lg">{card.title}</span>
+                  <span>{card.title}</span>
                 </CardContent>
               </Card>
             </SwiperSlide>

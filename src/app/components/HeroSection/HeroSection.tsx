@@ -16,7 +16,7 @@ export function HeroSection() {
             </span> para formar cidadãos do mundo
           </h1>
 
-          <h2 className="italic text-xl md:text-3xl text-[#008F5B] font-semibold">
+          <h2 className="italic text-xl md:text-2xl text-[#008F5B] font-semibold">
             Base forte, carinho no acolhimento e inglês <br /> desde o Infantil I com o Etapa Idiomas
           </h2>
 

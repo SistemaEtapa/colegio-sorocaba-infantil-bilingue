@@ -5,8 +5,8 @@ import Logo from '../../../../public/logo-sorocaba-branco.png'
 export function ReasonSection() {
 
   return (
-    <div id="ensino-bilingue" className="max-w-300 w-4/5 mx-auto py-12 grid grid-cols-1 gap-5 relative z-10 md:grid-cols-2">
-      <section className="px-5 h-full">
+    <div id="ensino-bilingue" className="max-w-300 w-4/5 mx-auto py-12 grid grid-cols-1 gap-5 relative z-10 xl:grid-cols-2">
+      <section className="px-5 xl:h-full">
         <SwiperCarousel />
       </section>
 

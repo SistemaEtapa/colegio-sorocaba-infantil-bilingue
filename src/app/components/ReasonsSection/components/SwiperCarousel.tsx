@@ -48,11 +48,11 @@ export function SwiperCarousel() {
       slidesPerView={1}
       autoplay={{ delay: 2500, disableOnInteraction: false }}
       loop={true}
-      className="w-full h-full"
+      className="w-full xl:h-full"
     >
       {images.map((image) => (
-        <SwiperSlide className="h-full" key={image.src}>
-          <img src={image.src} alt="" className="h-full object-cover rounded-lg" />
+        <SwiperSlide className="xl:h-full" key={image.src}>
+          <img src={image.src} alt="" className="xl:h-full object-cover rounded-lg" />
         </SwiperSlide>
       ))}
     </Swiper>

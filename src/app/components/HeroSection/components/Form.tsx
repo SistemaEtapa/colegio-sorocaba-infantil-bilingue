@@ -1,7 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
+import axios from 'axios'
 
 export function Form() {
   const [isPhoneInputValid, setIsPhoneInputValid] = useState(true);
@@ -16,36 +17,35 @@ export function Form() {
     setIsPhoneInputValid(numeros.length >= 10 && numeros.length <= 11);
   };
 
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.currentTarget);
+
+    const data = {
+      primeiroNome: formData.get("first_name"),
+      sobrenome: formData.get("last_name"),
+      telefone: phoneNumber,
+      email: formData.get("email"),
+      estudante: formData.get("00N4W00000CeUXJ"),
+      serie: formData.get("00NV2000001P6OD"),
+    };
+
+    try {
+      await axios.post(`https://ose-backend-e07eb856ad27.herokuapp.com/sorocaba/create`, data)
+      
+      window.location.href = 'https://cloud.conteudo.sistemaetapa.com.br/obrigado-sorocaba'
+    } catch (error) {
+      console.log(error)
+    }
+  };
+
   return (
     <Card className="bg-[#008F5B] text-white md:w-2/5">
       <form
         className="w-4/5 mx-auto space-y-7 flex flex-col items-center"
-        action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D4W000000Dtvh"
-        method="POST"
+        onSubmit={handleSubmit}
       >
-        <input className="bg-white text-black" type="hidden" name="oid" value="00D4W000000Dtvh" />
-        <input className="bg-white text-black"
-          type="hidden"
-          name="retURL"
-          value="https://cloud.conteudo.sistemaetapa.com.br/obrigadoFantastico"
-        />
-        <input className="bg-white text-black"
-          id="00NV2000002FiHJ"
-          name="00NV2000002FiHJ"
-          type="hidden"
-          value="79943"
-        />
-        <input className="bg-white text-black"
-          type="hidden"
-          name="recordType"
-          id="recordType"
-          value="012V20000008xAz"
-        />
-        <input className="bg-white text-black" type="hidden" 
-          name="lead_source"
-          id="lead_source"
-          value="Landing Page"
-        />
         <h3 className="text-2xl font-bold">Saiba mais</h3>
         <div className="w-full flex flex-col gap-5">
           <div className="flex flex-col text-xs">
